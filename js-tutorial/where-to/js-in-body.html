@@ -14,7 +14,7 @@
         section of an HTML page.
     </p>
 
-    <p id="info">Placing scripts at the bottom of the
+    <p id="info" style="display: none;"><strong>Info: </strong>Placing scripts at the bottom of the
 
         "body" element improves the display speed, because script interpretation slows down the display.
     </p>
@@ -22,8 +22,13 @@
     <script>
         function myFunction() {
             document.getElementById("paragraph").innerHTML = "You changed the paragraph using Script in body, calling a function myFunction().";
+            showInfo();
         }
-    </script> 
+
+        function showInfo() {
+            document.getElementById("info").style.display = "block";
+        }
+    </script>
 </body>
 
 </html>
