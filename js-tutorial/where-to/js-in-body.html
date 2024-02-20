@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <button onclick="myFunction()">Click here!
+    </button>
+    <p id="paragraph">In this example, a JavaScript function is placed in the
+        section of an HTML page.
+    </p>
+
+    <p id="info">Placing scripts at the bottom of the
+
+        "body" element improves the display speed, because script interpretation slows down the display.
+    </p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("paragraph").innerHTML = "You changed the paragraph using Script in body, calling a function myFunction().";
+        }
+    </script>
+</body>
+
+</html>
