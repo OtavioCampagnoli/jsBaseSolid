@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using External file JavaScript</title>
+    <script src="external-script.js"></script>
+</head>
+
+<body>
+    <h2>Using External file JavaScript</h2>
+    <button onclick="moreInfo()">More info</button>
+    <button onclick="backContent()">Back</button>
+    <p id="paragraph">External scripts are practical when the same code is used in many different web pages. JavaScript files have the file extension .js. To use an external script, put the name of the script file in the src (source) attribute of a <strong>script</strong> tag:
+    </p>
+
+    <div id="advantage" style="display: none">
+        <h2>External JavaScript Advantages</h2>
+        <p>
+            Placing scripts in external files has some advantages:
+            <ul>
+                <li>It separates HTML and code</li>
+                <li>It makes HTML and JavaScript easier to read and maintain</li>
+                <li>Cached JavaScript files can speed up page loads</li>
+            </ul>
+            To add several script files to one page  - use several script tags:
+        </p>
+    </div>
+
+    <div id="reference" style="display: none">
+        <h2>External Reference</h2>
+        <p>
+            An external script can be referenced in 3 different ways:
+            <ul>
+                <li>With a full URL (a full web address)</li>
+                <li>With a file path (like /js/)</li>
+                <li>Without any path</li>
+            </ul>
+        </p>
+    </div>
+
+</body>
+
+</html>
