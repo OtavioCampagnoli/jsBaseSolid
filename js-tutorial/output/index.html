@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Output</title>
+    <script src="script.js"></script>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        li {
+            margin: 0.5%;
+        }
+
+        span {
+            font-family: monospace, monospace;
+            color: rgb(202, 31, 31);
+            background-color: gainsboro;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JavaScript Output</h1>
+    <div>
+        <p>
+            JavaScript can "display" data in different ways:
+        <ul>
+            <li>
+                Writing into an HTML element, using: <span>innerHTML</span>.
+            </li>
+            <button onclick="innerFunction();">Try</button>
+            <button onclick="refreshFunction();">Refresh</button>
+            <li>
+                Writing into the HTML output using: <span>document.write()</span>.
+            </li>
+            <button onclick="documentFunction();">Try</button>
+            <li>
+                Writing into an alert box, using: <span>window.alert()</span>.
+            </li>
+            <button onclick="windowAlertFunction();">Try</button>
+            <li>
+                Writing into the browser console, using: <span>console.log()</span>.
+            </li>
+            <button onclick="consoleLogFunction();">Try</button>
+            <li>
+
+                JavaScript does not have any print object or print methods.
+
+                You cannot access output devices from JavaScript.
+
+                The only exception is that you can call the window.print() method in the browser to print the content of
+                the current window. <span>window.print()</span>.
+            </li>
+            <button onclick="printPageFunction();">Try to print</button>
+        </ul>
+
+        <p id="content" style="display: none;">
+        </p>
+        </p>
+    </div>
+</body>
+
+</html>
