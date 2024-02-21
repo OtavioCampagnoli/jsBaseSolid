@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+
+      #codeParagraph {
+        font-size: 18px;
+        font-family: "Courier New", Courier, monospace;
+        background-color: gainsboro;
+      }
+
+      #codeComment {
+        font-size: 18px;
+        color: green;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      span {
+        font-size: 18px;
+        font-family: "Courier New", Courier, monospace;
+        background-color: gainsboro;
+        color: darkorange;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="comment">
+      <h2>JavaScript Comment</h2>
+      <p>
+        JavaScript comments can be used to explain JavaScript code, and to make
+        it more readable. JavaScript comments can also be used to prevent
+        execution, when testing alternative code.
+      </p>
+    </div>
+    <div id="singleline">
+      <h2>Single Line Comments</h2>
+      <p>
+        Single line comments start with //. Any text between // and the end of
+        the line will be ignored by JavaScript (will not be executed). This
+        example uses a single-line comment before each code line:
+      </p>
+    </div>
+    <div id="test">
+      <h2 id="myH"></h2>
+      <p id="myP"></p>
+      <p id="result"></p>
+    </div>
+    <div id="multiline">
+      <h2>Multi-line</h2>
+      <p>
+        Multi-line Comments Multi-line comments start with /* and end with */.
+        Any text between /* and */ will be ignored by JavaScript. This example
+        uses a multi-line comment (a comment block) to explain the code:
+      </p>
+      <p>
+        <strong>Info: </strong>It is most common to use single line comments.
+        Block comments are often used for formal documentation.
+      </p>
+    </div>
+    <div id="prevent">
+      <h2>Using Comments to Prevent Execution</h2>
+      <p>
+        Using Comments to Prevent Execution Using comments to prevent execution
+        of code is suitable for code testing. Adding // in front of a code line
+        changes the code lines from an executable line to a comment. This
+        example uses // to prevent execution of one of the code lines.
+
+        <code id="codeComment">//document.getElementById("myH").innerHTML = "My First Page";</code>
+          <p id="codeParagraph">document.getElementById("myP").innerHTML = <span>"My first paragraph."</span>;</p>
+      </p>
+
+      <p>This example uses a comment block to prevent execution of multiple lines:      </p>
+
+      <p>
+        <code id="codeComment">
+        /*
+          document.getElementById("myH").innerHTML = "My First Page";<br>
+          document.getElementById("myP").innerHTML = "My first paragraph.";<br>
+        */
+        </code>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
