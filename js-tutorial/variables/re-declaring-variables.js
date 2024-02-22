@@ -19,3 +19,6 @@ console.log(name);
 // You cannot re-declare a variable declared with let or const.
 
 // This will not work:
+
+// let carName = "Volvo";
+// let carName;
