@@ -13,3 +13,9 @@ console.log(carName);
 var name = "name";
 
 console.log(name);
+
+// Note
+
+// You cannot re-declare a variable declared with let or const.
+
+// This will not work:
