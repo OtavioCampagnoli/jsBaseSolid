@@ -1,0 +1,62 @@
+# JavaScript Solid Base
+
+- Manipulation DOM:
+  - change content html;
+  - change style;
+  - change val attribute html;
+  - hide or show html elements.
+- Where To:
+  - external script;
+  - internal script.
+- Variables:
+  - declare-one-statement-many-variables;
+  - declare datatypes;
+  - dollar-sign;
+  - case sensitive;
+  - underscore(_);
+  - redeclaring;
+  - algebra;
+  - assignment;
+  - mixed;
+  - good pratices.
+- Keywords:
+- Const:
+  - Arrays;
+  - Hoisting;
+  - Objects;
+  - No redeclaring.
+- Var and Let:
+  - Black scope;
+  - Browser support;
+  - Global scope;
+  - Redeclaring with (let, var).
+- Output:
+  - alert;
+  - document.write();
+  - innerHTML;
+  - console.log();
+  - window.location.reload();
+- Assignment:
+  - Assignment Operators.
+- Comments:
+  - single line;
+  - multi line.
+- Arithmetic:
+  - Addition;
+  - Subtraction;
+  - MultiplicationExponentiation (ES2016);
+  - Division;
+  - Modulus (Remainder);
+  - Increment;
+  - Decrement.
+- Operators:
+  - Logical operators;
+  - String comparing;
+  - Type operators;
+  - String with numbers;
+  - String addition;
+  - Assignment;
+  - Comparison.
+- Data Types:
+  - Strings;
+  - Types Dynamic.
