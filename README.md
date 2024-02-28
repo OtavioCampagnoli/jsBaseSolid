@@ -20,16 +20,16 @@
   - mixed;
   - good pratices.
 - Keywords:
-- Const:
-  - Arrays;
-  - Hoisting;
-  - Objects;
-  - No redeclaring.
-- Var and Let:
-  - Black scope;
-  - Browser support;
-  - Global scope;
-  - Redeclaring with (let, var).
+  - Const:
+    - Arrays;
+    - Hoisting;
+    - Objects;
+    - No redeclaring.
+  - Var and Let:
+    - Black scope;
+    - Browser support;
+    - Global scope;
+    - Redeclaring with (let, var).
 - Output:
   - alert;
   - document.write();
