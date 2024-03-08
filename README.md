@@ -60,3 +60,13 @@
 - Data Types:
   - Strings;
   - Types Dynamic.
+  - Arrays;
+  - Empty Vaues;
+  - Undefined;
+  - Big Int;
+  - Numbers;
+  - Objects;
+  - Booleans;
+  - Exponential Notation;
+  - typeof;
+  - types-dynamic.
