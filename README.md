@@ -70,3 +70,8 @@
   - Exponential Notation;
   - typeof;
   - types-dynamic.
+- Functions:
+  - Examples with toCelsius function;
+  - Use with variables;
+  - Usign function with local variables.
+  - Return function without expected values.
