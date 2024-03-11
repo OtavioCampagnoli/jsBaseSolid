@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events JS</title>
+</head>
+
+<body>
+
+    <p id="demo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti magni vero harum, eveniet fuga fugit,
+        obcaecati voluptates a tempore architecto et quos suscipit. Numquam ipsam neque, id iure amet alias!
+    </p>
+    <button onclick="document.getElementById('demo').innerHTML = Date()">Using JS code inside html</button>
+    <!--You can use single quotes or double quotes, to pass the id of element what you want to select-->
+    <button onclick="this.innerHTML = Date()">Using this</button>
+    <!--Use this.innerHTML to return the function in the same element-->
+    <button onclick="displayDate('demo')">On Click</button>
+    <!--Normally you use a JS function, because one js function have any lines-->
+
+    <!--Using common HTML Events-->
+    <button onchange="displayDate('demo`')">On change</button>
+    <button onclick="displayDate('demo')">On click</button>
+    <button onmouseover="displayDate('demo')">Mouse over</button>
+    <button onmouseout="displayDate('demo')">Mouse out</button>
+    <button onkeydown="displayDate('demo')">On keydown</button>
+    <button onload="displayDate('demo')">On load</button>
+
+    <script>
+        function displayDate(id) {
+            const date = document.getElementById(id).innerHTML = Date();
+            return date;
+        }
+    </script>
+</body>
+
+</html>
