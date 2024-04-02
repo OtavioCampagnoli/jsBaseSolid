@@ -73,5 +73,27 @@
 - Functions:
   - Examples with toCelsius function;
   - Use with variables;
-  - Usign function with local variables.
+  - Usign function with local variables;
   - Return function without expected values.
+- Objects:
+  - Object Concept Introduction;
+  - Using Object Methods;
+- Events:
+  - Most common events in HTML.
+    - On Change;
+    - On Click;
+    - Mouse Over;
+    - Mouse Out;
+    - On Keydown;
+    - On load.
+- String Methods:
+  - Quotes;
+  - Template Strings;
+  - Length prop;
+  - Espace Characters;
+  - Breaking Long Lines;
+  - Strings as Objects (new String);
+  - Extraction String Characters:
+      - at(position);
+      - charAt(position);
+      - charCodeAt(position).
