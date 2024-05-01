@@ -27,3 +27,5 @@ console.log(part);
 
 part = text.slice(-12, -6);
 console.log(part);
+
+
